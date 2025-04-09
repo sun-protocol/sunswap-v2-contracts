@@ -16,16 +16,7 @@ jobs:
       - uses: pnpm/action-setup@v4
         with:
           version: 10
-
-      - id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - uses: actions/cache@v3
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            yarn-
+          
       - name: Install dependencies
         run: npm install
 
