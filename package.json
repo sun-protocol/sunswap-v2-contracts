@@ -18,7 +18,7 @@
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "axios": "^0.21.2",
-    "tronbox": "git+https://github.com/suniodev02/tronbox.git#009402ebdf15bbc92cc56d6a00d40d703e3aa7ce"
+    "tronbox": "^2.7.25"
   },
   "devDependencies": {
     "bn-chai": "^1.0.1",
