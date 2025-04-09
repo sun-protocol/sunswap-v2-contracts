@@ -1,28 +1,25 @@
-name: Tests
+name: ubuntu test
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main, develop ]
   pull_request:
+    branches: [ main ]
 
 jobs:
-  unit-tests:
-    name: Unit Tests
+  build:
+    name: Build and Test ubuntu
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
       - uses: pnpm/action-setup@v4
         with:
           version: 10
-          
-      - name: Install dependencies
-        run: npm install
-
-      # This is required separately from yarn test because it generates the typechain definitions
-      - name: Compile
-        run: npm run compile
-
-      - name: Run unit tests
-        run: npm run test:clean
+      - name: build 
+        run: |
+            npm install
+            npm run compile
+      - name: test
+        run: |
+            npm run test:clean
