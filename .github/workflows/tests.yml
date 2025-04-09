@@ -13,9 +13,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v4
+      - uses: pnpm/action-setup@v4
         with:
-          node-version: 16.x
+          version: 10
 
       - id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
