@@ -22,7 +22,7 @@ library SunswapV2Library {
                 hex'41',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'9dd9bfc2f6c1103a6c01d9c6a4044e4b8a9361f92df2728cdc3729922d56748e' //TODO: 主网的init code hash因为USDT合约地址改变需要改
+                hex'6d3f89421f83e4b62e628de8fc7ff2b014a79bf8fd8e8b0ea46e4a1d9409b67d'
             ))));
     }
 
