@@ -1,8 +1,23 @@
-# SunSwap2.0-contracts
+# SunSwap-v2-contracts
 
-[![Tests](https://github.com/sunswapteam/sunswap2.0-contracts/actions/workflows/tests.yml/badge.svg)](https://github.com/sunswapteam/sunswap2.0-contracts/actions/workflows/tests.yml)
 
 This repository contains the core smart contracts for the SunSwap 2.0 Protocol.
+
+## Core Contracts
+
+`SunswapV2Pair`, LP token & liquidity pool，provides `mint`,`burn`,`swap` methods
+`SunswapV2Factory`, Factory contract, create the pair contracts
+`Sunswapv2Router02`, Router contract, used for liquidity management and multi-hop swaps.
+
+## Deployments 
+
+| contract                   | chain | address                            |
+| :------------------------- | :---- | :--------------------------------- |
+| Factory                    | TRON  | TKWJdrQkqHisa1X8HUdHEfREvTzw4pMAaY |
+|                            | NILE  | THomLGMLhAjMecQf9FQjbZ8a1RtwsZLrGE |
+| SwapRouter                 | TRON  | TNJVzGqKBWkJxJB5XYSqGAwUTV15U24pPq |
+|                            | NILE  | TMn1qrmYUMSTXo9babrJLzepKZoPC7M6Sy |
+
 
 ## Compile and Deployment
 
