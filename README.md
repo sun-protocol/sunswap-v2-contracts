@@ -22,10 +22,10 @@ By decentralizing token exchange and liquidity management, SunSwap V2 became a f
 
 | contract                   | chain | address                            |
 | :------------------------- | :---- | :--------------------------------- |
-| Factory                    | TRON  | TKWJdrQkqHisa1X8HUdHEfREvTzw4pMAaY |
-|                            | NILE  | THomLGMLhAjMecQf9FQjbZ8a1RtwsZLrGE |
-| SwapRouter                 | TRON  | TNJVzGqKBWkJxJB5XYSqGAwUTV15U24pPq |
-|                            | NILE  | TMn1qrmYUMSTXo9babrJLzepKZoPC7M6Sy |
+| Factory                    | TRON Mainnet | TKWJdrQkqHisa1X8HUdHEfREvTzw4pMAaY |
+|                            | NILE Testnet | THomLGMLhAjMecQf9FQjbZ8a1RtwsZLrGE |
+| SwapRouter                 | TRON Mainnet | TNJVzGqKBWkJxJB5XYSqGAwUTV15U24pPq |
+|                            | NILE Testnet | TMn1qrmYUMSTXo9babrJLzepKZoPC7M6Sy |
 
 
 ## Compile and Deployment
