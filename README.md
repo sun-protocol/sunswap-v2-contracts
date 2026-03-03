@@ -3,6 +3,15 @@
 
 This repository contains the core smart contracts for the SunSwap 2.0 Protocol.
 
+## About
+
+SunSwap V2 is the one of major iterations of the SunSwap protocol, a decentralized exchange (DEX) built on Ethereum.  
+It introduced several key improvements over V1, including support for TRC20/TRC20 pairs, flash swaps, and price oracles.  
+The protocol enables automated liquidity provision using a constant product formula, allowing users to trade tokens directly from liquidity pools without relying on traditional order books.  
+
+By decentralizing token exchange and liquidity management, SunSwap V2 became a foundational building block in the DeFi ecosystem, paving the way for more advanced versions such as SunSwap V3.
+
+
 ## Core Contracts
 
 `SunswapV2Pair`, LP token & liquidity pool，provides `mint`,`burn`,`swap` methods
