@@ -10,8 +10,10 @@ By decentralizing token exchange and liquidity management, SunSwap V2 became a f
 
 ## Core Contracts
 
-`SunswapV2Pair`, LP token & liquidity pool，provides `mint`,`burn`,`swap` methods
-`SunswapV2Factory`, Factory contract, create the pair contracts
+`SunswapV2Pair`, LP token & liquidity pool，provides `mint`,`burn`,`swap` methods.
+
+`SunswapV2Factory`, Factory contract, create the pair contracts.
+
 `Sunswapv2Router02`, Router contract, used for liquidity management and multi-hop swaps.
 
 ---
