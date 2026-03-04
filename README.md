@@ -7,12 +7,15 @@ The protocol enables automated liquidity provision using a constant product form
 By decentralizing token exchange and liquidity management, SunSwap V2 became a foundational building block in the DeFi ecosystem, paving the way for more advanced versions such as SunSwap V3.
 
 ---
+
 ## Core Contracts
 
 `SunswapV2Pair`, LP token & liquidity pool，provides `mint`,`burn`,`swap` methods
 `SunswapV2Factory`, Factory contract, create the pair contracts
 `Sunswapv2Router02`, Router contract, used for liquidity management and multi-hop swaps.
+
 ---
+
 ## Deployments 
 
 | contract                   | chain | address                            |
@@ -54,7 +57,9 @@ Deploy the Sunswap 2.0 factory and router contract to the Nile TestNet.
 export PRIVATE_KEY_NILE='Your private key'
 npm run migrate
 ```
+
 ---
+
 ## Community & Support
 
 If you have questions about this project, find bugs, or would like to contribute, you can reach the team and community via:
