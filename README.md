@@ -54,7 +54,7 @@ npm run compile
 
 ### Deploying to Nile TestNet
 
-You can deploy the SunSwap 1.5 **factory** and **value aggregator** contracts to the TRON Nile TestNet using the provided scripts.
+You can deploy the SunSwap v2 **Factory** and **SunswapV2Router02** contracts to the TRON Nile TestNet using the provided scripts.
 
 First, export your private key for the Nile TestNet account (use a **test** account, never a production key):
 
@@ -65,7 +65,7 @@ export PRIVATE_KEY_NILE='Your private key'
 Then run:
 
 ```bash
-npm run migrate
+npm run deploy-tron
 ```
 
 This will:
